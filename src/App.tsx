@@ -1,7 +1,17 @@
-export default function App() {
+import {CalendarViewport} from "./components/CalendarViewport";
+
+function App() {
   return (
-    <div className="text-3xl font-bold text-blue-500">
-      Standapp
-    </div>
+    <CalendarViewport>
+      <div
+        className="w-[520px] h-[420px] bg-white rounded-2xl"
+        style={{
+          transformStyle: 'preserve-3d',
+          boxShadow: '0 40px 120px rgba(0,0,0,0.12)',
+        }}
+      />
+    </CalendarViewport>
   )
 }
+
+export default App
