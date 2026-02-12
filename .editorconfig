@@ -1,0 +1,32 @@
+# EditorConfig для Standapp
+# https://editorconfig.org
+
+root = true
+
+# Все файлы
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# TypeScript / TSX / JavaScript / JSX
+[*.{ts,tsx,js,jsx}]
+indent_style = space
+indent_size = 2
+
+# CSS / SCSS / HTML
+[*.{css,scss,html}]
+indent_style = space
+indent_size = 2
+
+# JSON
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
